@@ -18,8 +18,8 @@
                     fa-circle-o"></i> Data Anggota</a></li>
           <li><a href="index2.html"><i class="fa fa-circle-o"></i> Data
               Buku</a></li>
-          <li><a href="index2.html"><i class="fa fa-circle-o"></i> Data
-              Admin</a></li>
+          <li><a href="?page=list_user"><i class="fa fa-circle-o"></i> Data
+              User</a></li>
         </ul>
       </li>
       <li>

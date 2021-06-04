@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -18,14 +21,14 @@
   <link rel="stylesheet" href="../assets/css/_all-skins.min.css">
   <!-- Date Picker -->
   <!-- <link rel="stylesheet" href="../assets/css/datepicker3.css"> -->
-  <link rel="icon" href="../assets/img/logo-uniska.png" type="image/gif" sizes="16x16">
+  <link rel="icon" href="../assets/image/logo-uniska.png" type="image/gif" sizes="16x16">
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <div class="wrapper">
     <header class="main-header">
       <!-- Logo -->
-      <a href="#" class="logo">
+      <a href="home.php" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>P</b>U</span>
         <!-- logo for regular state and mobile devices -->
@@ -43,15 +46,18 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="https://ui-avatars.com/api/?name=Pandu+Norsyabani" class="user-image" alt="User Image">
-                <span class="hidden-xs">Pandu Norsya'bani</span>
+                <img src="https://ui-avatars.com/api/?name=<?php echo $_SESSION['nama']; ?>" class="user-image"
+                  alt="User Image">
+                <span class="hidden-xs"><?php echo $_SESSION['nama']; ?></span>
               </a>
               <ul class="dropdown-menu">
                 <!-- User image -->
                 <li class="user-header">
-                  <img src="https://ui-avatars.com/api/?name=Pandu+Norsyabani" class="img-circle" alt="User Image">
+                  <img src="https://ui-avatars.com/api/?name=<?php echo $_SESSION['nama']; ?>" class="img-circle"
+                    alt="User Image">
                   <p>
-                    Pandu Norsya'bani - Web Developer
+                    <?php echo $_SESSION['nama']; ?> -
+                    Web Developer
                     <small>Member since Nov. 2014</small>
                   </p>
                 </li>
