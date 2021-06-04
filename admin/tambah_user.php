@@ -61,7 +61,6 @@
                 <label> Level </label>
                 <select name="level" class="form-control">
                   <option value=1>Admin</option>
-                  43
                   <option value=2>User</option>
                 </select>
               </div>
