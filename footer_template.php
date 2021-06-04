@@ -13,11 +13,11 @@
 <!-- Bootstrap 3.3.6 -->
 <script src="../assets/js/bootstrap.min.js"></script>
 <!-- datepicker -->
-<script src="../assets/js/bootstrap-datepicker.js"></script>
+<!-- <script src="../assets/js/bootstrap-datepicker.js"></script> -->
 <!-- Slimscroll -->
-<script src="../assets/js/jquery.slimscroll.min.js"></script>
+<!-- <script src="../assets/js/jquery.slimscroll.min.js"></script> -->
 <!-- FastClick -->
-<script src="../assets/js/fastclick.min.js"></script>
+<!-- <script src="../assets/js/fastclick.min.js"></script> -->
 <!-- AdminLTE App -->
 <script src="../assets/js/app.min.js"></script>
 </body>

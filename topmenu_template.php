@@ -17,7 +17,8 @@
   folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../assets/css/_all-skins.min.css">
   <!-- Date Picker -->
-  <link rel="stylesheet" href="../assets/css/datepicker3.css">
+  <!-- <link rel="stylesheet" href="../assets/css/datepicker3.css"> -->
+  <link rel="icon" href="../assets/img/logo-uniska.png" type="image/gif" sizes="16x16">
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -42,15 +43,15 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                <span class="hidden-xs">Alexander Pierce</span>
+                <img src="https://ui-avatars.com/api/?name=Pandu+Norsyabani" class="user-image" alt="User Image">
+                <span class="hidden-xs">Pandu Norsya'bani</span>
               </a>
               <ul class="dropdown-menu">
                 <!-- User image -->
                 <li class="user-header">
-                  <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                  <img src="https://ui-avatars.com/api/?name=Pandu+Norsyabani" class="img-circle" alt="User Image">
                   <p>
-                    Muharir - Web Developer
+                    Pandu Norsya'bani - Web Developer
                     <small>Member since Nov. 2014</small>
                   </p>
                 </li>

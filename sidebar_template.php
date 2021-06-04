@@ -5,7 +5,7 @@
 
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu">
-      <li class="header">MAIN NAVIGATION</li>
+      <li class="header" style="text-align: center;">MAIN NAVIGATION</li>
       <li class="active treeview">
         <a href="#">
           <i class="fa fa-dashboard"></i> <span>Master Data</span>
@@ -25,9 +25,6 @@
       <li>
         <a href="pages/widgets.html">
           <i class="fa fa-files-o"></i> <span>Transaksi</span>
-          <span class="pull-right-container">
-            <small class="label pull-right bg-green">new</small>
-          </span>
         </a>
       </li>
       <li class="treeview">
@@ -39,16 +36,11 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="pages/charts/chartjs.html"><i class="fa
-                    fa-circle-o"></i> Laporan Transaksi</a></li>
-          <li><a href="pages/charts/morris.html"><i class="fa
-                    fa-circle-o"></i> Laporan Anggota</a></li>
-          <li><a href="pages/charts/flot.html"><i class="fa
-                    fa-circle-o"></i> Laporan Data Buku</a></li>
-          <li><a href="pages/charts/inline.html"><i class="fa
-                    fa-circle-o"></i> Laporan Peminjaman</a></li>
-          <li><a href="pages/charts/inline.html"><i class="fa
-                    fa-circle-o"></i> Laporan Pengembalian</a></li>
+          <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Laporan Transaksi</a></li>
+          <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Laporan Anggota</a></li>
+          <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Laporan Data Buku</a></li>
+          <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Laporan Peminjaman</a></li>
+          <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Laporan Pengembalian</a></li>
         </ul>
       </li>
     </ul>
