@@ -1,6 +1,6 @@
 <footer class="main-footer">
   <div class="pull-right hidden-xs">
-    <b><a href="https://muharir.com">By : Pandu Norsya'bani</a></b>
+    <b><a href="https://pandunorsyabani.netlify.app/">By : Pandu Norsya'bani</a></b>
   </div>
   <strong>Copyright &copy;<a href="http://almsaeedstudio.com">FTI UNISKA @2017</a>.</strong>
   Built With <i class="fa fa-heart" aria-hidden="true" style="color: red"></i> and <i class="fa fa-coffee"
