@@ -1,8 +1,12 @@
 <footer class="main-footer">
   <div class="pull-right hidden-xs">
+<<<<<<< HEAD
+    <b><a href="https://pandunorsyabani.netlify.app">By : Pandu Norsya'bani</a></b>
+=======
     <b><a href="https://pandunorsyabani.netlify.app/">By : Pandu Norsya'bani</a></b>
+>>>>>>> 1b1fb22ec9d6a72d51bcd13fdc56989cf84a4100
   </div>
-  <strong>Copyright &copy;<a href="http://almsaeedstudio.com">FTI UNISKA @2017</a>.</strong>
+  <strong>Copyright &copy;<a href="http://almsaeedstudio.com">FTI UNISKA @2021</a>.</strong>
   Built With <i class="fa fa-heart" aria-hidden="true" style="color: red"></i> and <i class="fa fa-coffee"
     aria-hidden="true" style="color: #7B3F00">Hot Chocolate</i>
 </footer>

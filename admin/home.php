@@ -59,6 +59,33 @@ switch ($_GET['page']) {
     case "print_anggota":
       include "print_anggota.php";
       break;
+
+    // untuk Buku
+    case "tambah_buku";
+      include "tambah_buku.php";
+      break;
+    case "simpan_buku";
+      include "simpan_buku.php";
+      break;
+    case "detail_buku";
+      include "detail_buku.php";
+      break;
+    case "list_buku";
+      include "list_buku.php";
+      break;
+    case "hapus_buku";
+      include "hapus_buku.php";
+      break;
+    case "edit_buku";
+      include "edit_buku.php";
+      break;
+    case "update_buku";
+      include "update_buku.php";
+      break;
+    case "cari_buku";
+      include "cari_buku.php";
+      break;
+
 }
 ?>
 

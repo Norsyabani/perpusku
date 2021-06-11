@@ -1,5 +1,11 @@
 <?php
   session_start();
+
+  include 'db/koneksi.php';
+  $query = mysqli_query($link, "SELECT * FROM tb_user WHERE username='$_SESSION[nama]'");
+  $data = mysqli_fetch_array($query);
+
+  $avatar = $data['foto'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,15 +52,25 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="https://ui-avatars.com/api/?name=<?php echo $_SESSION['nama']; ?>" class="user-image"
-                  alt="User Image">
+                <?php
+                    if ($avatar) {
+                      echo "<img src='../assets/image/$data[foto]' class='user-image' alt='User Image'>";
+                    } else{ 
+                      echo "<img src='https://ui-avatars.com/api/?name=$_SESSION[nama];' class='user-image' alt='User Image'>";
+                    }
+                  ?>
                 <span class="hidden-xs"><?php echo $_SESSION['nama']; ?></span>
               </a>
               <ul class="dropdown-menu">
                 <!-- User image -->
                 <li class="user-header">
-                  <img src="https://ui-avatars.com/api/?name=<?php echo $_SESSION['nama']; ?>" class="img-circle"
-                    alt="User Image">
+                  <?php
+                    if ($avatar) {
+                      echo "<img src='../assets/image/$data[foto]' class='user-image' alt='User Image'>";
+                    } else{ 
+                      echo "<img src='https://ui-avatars.com/api/?name=$_SESSION[nama];' class='user-image' alt='User Image'>";
+                    }
+                  ?>
                   <p>
                     <?php echo $_SESSION['nama']; ?> -
                     Web Developer

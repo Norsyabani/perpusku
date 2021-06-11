@@ -36,8 +36,12 @@ if ($_POST['simpan']) {
             move_uploaded_file($file_tmp, '../assets/image/' . $nama);
 
             //simpan data
-            $query = mysqli_query($link, "INSERT INTO tb_user(username, password, email, foto, level) VALUES('$username','$pass','$email','$nama','$level')");
-
+            if ($foto == null || !$foto) {
+                $query = mysqli_query($link, "INSERT INTO tb_user(username, password, email, foto, level) VALUES('$username','$pass','$email',NULL,'$level')");
+            } else {
+                $query = mysqli_query($link, "INSERT INTO tb_user(username, password, email, foto, level) VALUES('$username','$pass','$email','$nama','$level')");
+            }
+            
             //periksa apakah query simpannya berhasil
             if (!$query) {
                 //jika gagal tampikan pesan gagal
